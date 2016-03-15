@@ -1,0 +1,9 @@
+127.0.0.1 - - [23/Feb/2016:11:04:59 +0100] "GET /tcf-backend/webservices/CartWS?wsdl=CartWebService.wsdl HTTP/1.1" 200 4083
+127.0.0.1 - - [23/Feb/2016:11:05:49 +0100] "POST /tcf-backend/webservices/CustomerCareWS HTTP/1.1" 200 189
+127.0.0.1 - - [23/Feb/2016:11:07:44 +0100] "POST /tcf-backend/webservices/CustomerCareWS HTTP/1.1" 200 189
+127.0.0.1 - - [23/Feb/2016:11:07:59 +0100] "POST /tcf-backend/webservices/CartWS HTTP/1.1" 500 427
+127.0.0.1 - - [23/Feb/2016:11:08:09 +0100] "POST /tcf-backend/webservices/CartWS HTTP/1.1" 200 204
+127.0.0.1 - - [23/Feb/2016:11:08:18 +0100] "POST /tcf-backend/webservices/CartWS HTTP/1.1" 500 430
+127.0.0.1 - - [23/Feb/2016:11:08:26 +0100] "POST /tcf-backend/webservices/CartWS HTTP/1.1" 200 204
+127.0.0.1 - - [23/Feb/2016:11:09:43 +0100] "POST /tcf-backend/webservices/CartWS HTTP/1.1" 200 202
+127.0.0.1 - - [23/Feb/2016:11:09:46 +0100] "POST /tcf-backend/webservices/CartWS HTTP/1.1" 200 323
