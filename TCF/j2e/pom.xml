@@ -48,6 +48,25 @@
     </repositories>
 
     <dependencies>
+        <!-- Dependencies for the OpenEJB framework -->
+        <dependency>
+            <groupId>org.apache.openejb</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>${versions.javaee}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.openejb</groupId>
+            <artifactId>openejb-core</artifactId>
+            <version>${versions.openejb}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.openejb</groupId>
+            <artifactId>tomee-embedded</artifactId>
+            <version>${versions.tomee}</version>
+            <scope>test</scope>
+        </dependency>
         <!-- Dependencies for the testing frameworks (Junit, Mockito & Arquillian) -->
         <dependency>
             <groupId>junit</groupId>

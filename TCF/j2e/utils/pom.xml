@@ -13,4 +13,34 @@
 
     <artifactId>utils</artifactId>
     <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1.entities</groupId>
+            <artifactId>orders</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>exceptions</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- JSON -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20160212</version>
+        </dependency>
+        <!-- Dependency to integrate REST clients (order matters for CXF) -->
+        <dependency>
+            <groupId>org.apache.openejb</groupId>
+            <artifactId>openejb-cxf</artifactId>
+            <version>${versions.openejb}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.openejb</groupId>
+            <artifactId>openejb-cxf-rs</artifactId>
+            <version>${versions.openejb}</version>
+        </dependency>
+    </dependencies>
 </project>
