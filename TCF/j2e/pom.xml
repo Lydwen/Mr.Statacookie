@@ -13,6 +13,14 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+	
+    <modules>
+		<module>components</module>
+		<module>entities</module>
+		<module>exceptions</module>
+		<module>utils</module>
+		<module>web-services</module>
+	</modules>
 
     <profiles>
         <profile>

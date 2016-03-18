@@ -6,12 +6,11 @@
 
     <parent>
         <groupId>fr.unice.polytech.isa.g1</groupId>
-        <artifactId>tcf-backend</artifactId>
+        <artifactId>components</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../</relativePath>
+        <relativePath>../</relativePath>
     </parent>
 
-    <groupId>fr.unice.polytech.isa.g1.components</groupId>
     <artifactId>cart-cashier</artifactId>
     <packaging>jar</packaging>
 
