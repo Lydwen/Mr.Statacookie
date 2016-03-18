@@ -12,7 +12,7 @@
     </parent>
 
     <artifactId>entities</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <modules>
 		<module>items</module>

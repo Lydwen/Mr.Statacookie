@@ -12,7 +12,7 @@
     </parent>
 
     <artifactId>components</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <modules>
 		<module>cart-cashier</module>
