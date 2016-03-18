@@ -9,7 +9,7 @@ Le projet TCF découpé et intégré continuellement avec de vrais morceaux de c
 ## The Cookie Factory ##
 Le projet The Cookie Factory a été réalisé par Sébastien Mosser. Le répertoire original peut-être trouvé ici : https://github.com/polytechnice-si/4A_ISA_TheCookieFactory/
 
-# Plan #
+## Plan ##
 
 > Semaine 1
 
@@ -31,7 +31,7 @@ Le projet The Cookie Factory a été réalisé par Sébastien Mosser. Le répert
 
 > VM Info
 
-erebe-vm??.i3s.unice.fr
-devops
-[passwd]
+erebe-vm3.i3s.unice.fr
 [1 CPU] - 2GB
+devops
+atchoum !!!
