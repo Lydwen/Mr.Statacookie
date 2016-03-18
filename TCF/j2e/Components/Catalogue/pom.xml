@@ -15,10 +15,11 @@
     <packaging>jar</packaging>
 
     <dependencies>
+		<!-- Entities -->
         <dependency>
-            <groupId>fr.unice.polytech.isa.g1.entities</groupId>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
             <artifactId>items</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>
