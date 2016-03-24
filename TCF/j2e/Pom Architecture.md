@@ -1,7 +1,7 @@
 # POM PAPA #
 
 pom :
-	*ArtifactId / Module*
+<br/>*ArtifactId / Module*
 <ul>
 <li>components</li>
 <li>entities</li>
