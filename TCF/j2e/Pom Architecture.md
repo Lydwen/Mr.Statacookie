@@ -1,5 +1,6 @@
 # POM PAPA #
 
+-- dad name<br/>
 **module name**:
 <ul>
 <li>child</li>
@@ -28,21 +29,25 @@
 <li>kitchen</li>
 </ul>
 
+<br/>
 **entities** :
 <ul>
 <li>items</li>
 <li>orders</li>
 </ul>
 
+<br/>
 **exceptions** :
 <br/>*None*
 
+<br/>
 **utils** :
 <ul>
 <li><i>orders</i></li>
 <li><i>exceptions</i></li>
 </ul>
 
+<br/>
 **web-services** :
 <ul>
 <li><i>catalogue</i></li>
@@ -53,7 +58,7 @@
 <br/>
 > LEVEL 3
 
--- components
+-- components <br/>
 **cart-cashier** :
 <ul>
 <li><i>utils</i></li>
@@ -61,13 +66,15 @@
 <li><i>kitchen</i></li>
 </ul>
 
--- components
+<br/>
+-- components <br/>
 **catalogue** :
 <ul>
 <li><i>items</i></li>
 </ul>
 
--- components
+<br/>
+-- components <br/>
 **kitchen** :
 <ul>
 <li><i>exceptions</i></li>
@@ -75,11 +82,13 @@
 <li><i>orders</i></li>
 </ul>
 
--- entities
+<br/>
+-- entities <br/>
 **items** :
 <br/>*None*
 
--- entities
+<br/>
+-- entities <br/>
 **orders** :
 <ul>
 <li><i>items</i></li>
