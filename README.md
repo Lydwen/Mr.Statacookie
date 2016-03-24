@@ -32,6 +32,7 @@ Le projet The Cookie Factory a été réalisé par Sébastien Mosser. Le répert
 <li>Configurer Artifactory</li>
 <li>Configurer Jenkins</li>
 <li>Rajouter les tests pour Maven</li>
+<li>Tester usage multiple de Artifactory</li>
 </ul>
 
 
