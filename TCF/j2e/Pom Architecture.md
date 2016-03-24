@@ -1,5 +1,12 @@
 # POM PAPA #
 
+**module name**:
+<ul>
+<li>child</li>
+<li><i>dependency</i></li>
+</ul>
+
+
 > LEVEL 1
 
 **pom** :
@@ -28,17 +35,17 @@
 </ul>
 
 **exceptions** :
-<br/>*None*
+<br/><i>None*
 
 **utils** :
 <ul>
 <li><i>orders</i></li>
-<li>*exceptions*</li>
+<li><i>exceptions</i></li>
 </ul>
 
 **web-services** :
 <ul>
-<li>*catalogue*</li>
-<li>*items*</li>
-<li>*exceptions*</li>
+<li><i>catalogue</i></li>
+<li><i>items</i></li>
+<li><i>exceptions</i></li>
 </ul>
