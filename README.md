@@ -22,10 +22,8 @@ Le projet The Cookie Factory a été réalisé par Sébastien Mosser. Le répert
 > Semaine 2
 
 <ul>
-<li>Etudier Maven + Artefactory </li>
-<li>Mettre en place le repository d'artifact</li>
+<li>Kévin : Installer Artifactory & Jenkins</li>
 <li>Antoine : Configurer la VM (proxy apache2)</li>
-<li>Tester la multi-interaction avec la VM</li>
 </ul>
 
 
