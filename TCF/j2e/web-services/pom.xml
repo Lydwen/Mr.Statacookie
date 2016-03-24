@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+	<!-- Dad -->
     <parent>
         <groupId>fr.unice.polytech.isa.g1</groupId>
         <artifactId>tcf-backend</artifactId>
@@ -11,6 +12,7 @@
         <relativePath>../</relativePath>
     </parent>
 
+	<!-- Me -->
     <artifactId>web-services</artifactId>
     <packaging>war</packaging>
 
@@ -18,6 +20,7 @@
         <versions.tomee.embedded>1.7.3</versions.tomee.embedded>
     </properties>
 
+	<!-- What I Need -->
     <dependencies>
         <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>

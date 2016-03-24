@@ -1,5 +1,7 @@
 # POM PAPA #
 
+> LEVEL 1
+
 **pom** :
 <ul>
 <li>components</li>
@@ -9,9 +11,34 @@
 <li>web-services</li>
 </ul>
 
+
+> LEVEL 2
+
 **components** :
 <ul>
 <li>cart-cashier</li>
-<li>catalogue</module>
-<li>kitchen</module></li>
+<li>catalogue</li>
+<li>kitchen</li>
+</ul>
+
+**entities** :
+<ul>
+<li>items</li>
+<li>orders</li>
+</ul>
+
+**exceptions** :
+*None*
+
+**utils** :
+<ul>
+<li>*orders*</li>
+<li>*exceptions*</li>
+</ul>
+
+**web-services** :
+<ul>
+<li>*catalogue*</li>
+<li>*items*</li>
+<li>*exceptions*</li>
 </ul>
