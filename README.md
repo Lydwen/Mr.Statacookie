@@ -24,7 +24,7 @@ Le projet The Cookie Factory a été réalisé par Sébastien Mosser. Le répert
 <ul>
 <li>Etudier Maven + Artefactory </li>
 <li>Mettre en place le repository d'artifact</li>
-<li>Configurer la VM (proxy)</li>
+<li>Antoine : Configurer la VM (proxy apache2)</li>
 <li>Tester la multi-interaction avec la VM</li>
 </ul>
 
@@ -33,5 +33,5 @@ Le projet The Cookie Factory a été réalisé par Sébastien Mosser. Le répert
 
 erebe-vm3.i3s.unice.fr
 [1 CPU] - 2GB
-devops
-atchoum !!!
+id : devops
+pwd : atchoum !!!
