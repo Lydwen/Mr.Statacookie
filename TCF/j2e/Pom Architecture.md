@@ -2,9 +2,10 @@
 
 pom :
 	*ArtifactId / Module*
-	components
-	entities
-	exceptions
-	utils
-	web-services
-	
+<ul>
+<li>components</li>
+<li>entities</li>
+<li>exceptions</li>
+<li>utils</li>
+<li>web-services</li>
+</ul>
