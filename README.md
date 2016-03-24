@@ -26,6 +26,16 @@ Le projet The Cookie Factory a été réalisé par Sébastien Mosser. Le répert
 <li>Antoine : Configurer la VM (proxy apache2)</li>
 </ul>
 
+> TODO
+
+<ul>
+<li>Configurer Artifactory</li>
+<li>Configurer Jenkins</li>
+<li>Rajouter les tests pour Maven</li>
+</ul>
+
+
+
 
 > VM Info
 
