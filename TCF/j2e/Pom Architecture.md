@@ -28,11 +28,11 @@
 </ul>
 
 **exceptions** :
-*None*
+<br/>*None*
 
 **utils** :
 <ul>
-<li>*orders*</li>
+<li><i>orders</i></li>
 <li>*exceptions*</li>
 </ul>
 
