@@ -6,10 +6,10 @@
 <li><i>dependency</i></li>
 </ul>
 
-
+<br/>
 > LEVEL 1
 
-**pom** :
+**POM DOYEN** :
 <ul>
 <li>components</li>
 <li>entities</li>
@@ -18,7 +18,7 @@
 <li>web-services</li>
 </ul>
 
-
+<br/>
 > LEVEL 2
 
 **components** :
@@ -35,7 +35,7 @@
 </ul>
 
 **exceptions** :
-<br/><i>None*
+<br/>*None*
 
 **utils** :
 <ul>
@@ -49,3 +49,39 @@
 <li><i>items</i></li>
 <li><i>exceptions</i></li>
 </ul>
+
+<br/>
+> LEVEL 3
+
+-- components
+**cart-cashier** :
+<ul>
+<li><i>utils</i></li>
+<li><i>orders</i></li>
+<li><i>kitchen</i></li>
+</ul>
+
+-- components
+**catalogue** :
+<ul>
+<li><i>items</i></li>
+</ul>
+
+-- components
+**kitchen** :
+<ul>
+<li><i>exceptions</i></li>
+<li><i>utils</i></li>
+<li><i>orders</i></li>
+</ul>
+
+-- entities
+**items** :
+<br/>*None*
+
+-- entities
+**orders** :
+<ul>
+<li><i>items</i></li>
+</ul>
+
