@@ -36,4 +36,18 @@
             <version>${project.version}</version>
         </dependency>
     </dependencies>
+    
+    <!-- PUSH ME UP, OoOOOOoh ARTIFACTORYYYY!-->
+    <distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>erebe-vm3-releases</name>
+			<url>http://erebe-vm3.i3s.unice.fr/artifactory/cart-cashier</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>erebe-vm3-snapshots</name>
+			<url>http://erebe-vm3.i3s.unice.fr/artifactory/cart-cashier</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
