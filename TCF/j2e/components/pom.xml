@@ -18,11 +18,12 @@
 
 	<!-- Children -->
     <modules>
-		<module>cart-cashier</module>
+		<!--<module>cart-cashier</module>
+		<module>kitchen</module>-->
+		<module>cart-cashier-kitchen</module>
 		<module>catalogue</module>
-		<module>kitchen</module>
 	</modules>
-	
+		
 	<!-- PUSH ME UP, OoOOOOoh ARTIFACTORYYYY!-->
     <distributionManagement>
 		<repository>

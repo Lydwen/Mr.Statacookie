@@ -11,9 +11,9 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
-	
+
 	<!-- Me -->
-    <artifactId>catalogue</artifactId>
+    <artifactId>kitchen</artifactId>
     <packaging>jar</packaging>
 	
 	<properties>
@@ -25,7 +25,7 @@
       <versions.openejb>4.7.3</versions.openejb>
       <versions.tomee>1.7.3</versions.tomee>
 	</properties>
-  
+	
 	<repositories>
         <!-- Snapshot repository to access to the latest version of the OpenEJB framework -->
         <repository>
@@ -82,16 +82,25 @@
           <version>${versions.tomee.embedded}</version>
           <scope>test</scope>
       </dependency>
-	  
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>exceptions</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>utils</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 		<!-- Entities -->
         <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>items</artifactId>
+            <artifactId>orders</artifactId>
             <version>${project.version}</version>
         </dependency>
 		<dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>cart-cashier-kitchen</artifactId>
+            <artifactId>cart-cashier</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

@@ -11,9 +11,9 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
-
+	
 	<!-- Me -->
-    <artifactId>kitchen</artifactId>
+    <artifactId>cart-cashier-kitchen</artifactId>
     <packaging>jar</packaging>
 	
 	<properties>
@@ -25,7 +25,7 @@
       <versions.openejb>4.7.3</versions.openejb>
       <versions.tomee>1.7.3</versions.tomee>
 	</properties>
-	
+  
 	<repositories>
         <!-- Snapshot repository to access to the latest version of the OpenEJB framework -->
         <repository>
@@ -37,7 +37,7 @@
 
 	<!-- What I Need -->
     <dependencies>
-	<dependency>
+		<dependency>
           <groupId>org.apache.openejb</groupId>
           <artifactId>javaee-api</artifactId>
           <version>${versions.javaee}</version>
@@ -84,11 +84,6 @@
       </dependency>
         <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>exceptions</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>fr.unice.polytech.isa.g1</groupId>
             <artifactId>utils</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -98,14 +93,15 @@
             <artifactId>orders</artifactId>
             <version>${project.version}</version>
         </dependency>
-		<!--<dependency>
+		<!-- Components -->
+        <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>cart-cashier</artifactId>
+            <artifactId>kitchen</artifactId>
             <version>${project.version}</version>
-        </dependency>-->
+        </dependency>
     </dependencies>
-	
-	<!-- PUSH ME UP, OoOOOOoh ARTIFACTORYYYY!-->
+    
+    <!-- PUSH ME UP, OoOOOOoh ARTIFACTORYYYY!-->
     <distributionManagement>
 		<repository>
 			<id>central</id>
