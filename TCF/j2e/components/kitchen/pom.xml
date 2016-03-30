@@ -98,11 +98,11 @@
             <artifactId>orders</artifactId>
             <version>${project.version}</version>
         </dependency>
-		<dependency>
+		<!--<dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
             <artifactId>cart-cashier</artifactId>
             <version>${project.version}</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
 	
 	<!-- PUSH ME UP, OoOOOOoh ARTIFACTORYYYY!-->
