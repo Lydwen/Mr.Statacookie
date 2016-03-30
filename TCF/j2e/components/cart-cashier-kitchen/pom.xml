@@ -93,12 +93,6 @@
             <artifactId>orders</artifactId>
             <version>${project.version}</version>
         </dependency>
-		<!-- Components -->
-        <dependency>
-            <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>kitchen</artifactId>
-            <version>${project.version}</version>
-        </dependency>
     </dependencies>
 	
     
