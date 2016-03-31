@@ -21,12 +21,12 @@ public class CustomerRegistryTest extends AbstractTCFTest {
 	@Before
 	public void setUpContext() throws Exception { memory.flush(); }
 
-	@Test(expected = Exception.class)
+	@Test
 	public void unknownCustomer() {
 		assertFalse(finder.findByName("John").isPresent());
 	}
 
-	@Test(expected = Exception.class)
+	@Test
 	public void registerCustomer() throws Exception {
 		String name = "John";
 		String creditCard = "credit card number";
@@ -39,8 +39,7 @@ public class CustomerRegistryTest extends AbstractTCFTest {
 	}
 
 
-	//@Test(expected = AlreadyExistingCustomerException.class)
-	@Test(expected = Exception.class)
+	@Test(expected = AlreadyExistingCustomerException.class)
 	public void cannotRegisterTwice() throws Exception {
 		String name = "John";
 		String creditCard = "credit card number";
