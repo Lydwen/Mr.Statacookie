@@ -61,7 +61,7 @@ public class CashierTest extends AbstractTCFTest {
 		assertEquals(price, order.getPrice(), 0.0);
 		
 		// TO DELETE
-		assertEquals(1,2);
+		//assertEquals(1,2);
 	}
 
 	@Test(expected = PaymentException.class)
