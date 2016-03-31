@@ -18,8 +18,8 @@
 
 	<!-- Children -->
     <modules>
-		<!--<module>cart-cashier</module>
-		<module>kitchen</module>-->
+		<!--<module>cart-cashier</module>-->
+		<module>registration</module>
 		<module>cart-cashier-kitchen</module>
 		<module>catalogue</module>
 	</modules>
