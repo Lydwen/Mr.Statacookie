@@ -18,6 +18,12 @@
 			<id>statacookie-repository</id>
 			<url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E/</url>
 		</repository>
+        <!-- Snapshot repository to access to the latest version of the OpenEJB framework -->
+        <repository>
+            <id>apache-m2-snapshot</id>
+            <name>Apache Snapshot Repository</name>
+            <url>https://repository.apache.org/content/groups/snapshots</url>
+        </repository>
 	</repositories>
 	
 	<!-- Me -->
@@ -34,15 +40,6 @@
       <versions.tomee>1.7.3</versions.tomee>
 	</properties>
   
-	<repositories>
-        <!-- Snapshot repository to access to the latest version of the OpenEJB framework -->
-        <repository>
-            <id>apache-m2-snapshot</id>
-            <name>Apache Snapshot Repository</name>
-            <url>https://repository.apache.org/content/groups/snapshots</url>
-        </repository>
-    </repositories>
-
 	<!-- What I Need -->
     <dependencies>
 		<dependency>
