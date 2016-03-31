@@ -23,15 +23,6 @@
 		<module>cart-cashier-kitchen</module>
 		<module>catalogue</module>
 	</modules>
-	
-	<!-- What I Need -->
-    <dependencies>
-		<dependency>
-			<groupId>fr.unice.polytech.isa.g1</groupId>
-			<artifactId>exceptions</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-	</dependencies>
 		
 	<!-- PUSH ME UP, OoOOOOoh ARTIFACTORYYYY!-->
     <distributionManagement>
