@@ -14,10 +14,10 @@
 
 	<!-- Artifactory repository -->
 	<repositories>
-		<!--<repository>
+		<repository>
 			<id>statacookie-repository</id>
 			<url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E/</url>
-		</repository>-->
+		</repository>
         <!-- Snapshot repository to access to the latest version of the OpenEJB framework -->
         <repository>
             <id>apache-m2-snapshot</id>
