@@ -26,16 +26,6 @@
 
 	<!-- What I Need -->
     <dependencies>
-        <dependency>
-            <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>orders</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>exceptions</artifactId>
-            <version>${project.version}</version>
-        </dependency>
         <!-- JSON -->
         <dependency>
             <groupId>org.json</groupId>
@@ -52,6 +42,22 @@
             <groupId>org.apache.openejb</groupId>
             <artifactId>openejb-cxf-rs</artifactId>
             <version>${versions.openejb}</version>
+        </dependency>
+		
+		<dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>orders</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>exceptions</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+		<dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>items</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 	
