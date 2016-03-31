@@ -11,7 +11,15 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
-
+	
+	<!-- Artifactory repository -->
+	<repositories>
+		<repository>
+			<id>statacookie-repository</id>
+			<url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E/</url>
+		</repository>
+	</repositories>
+	
 	<!-- Me -->
     <artifactId>exceptions</artifactId>
     <packaging>jar</packaging>
