@@ -32,6 +32,7 @@ public class CashierTest extends AbstractTCFTest {
 
 	@Before
 	public void setUpContext() throws Exception {
+	
 		memory.flush();
 		items = new HashSet<>();
 		items.add(new Item(Cookies.CHOCOLALALA, 3));
@@ -58,6 +59,9 @@ public class CashierTest extends AbstractTCFTest {
 		assertEquals(items, order.getItems());
 		double price = (3 * Cookies.CHOCOLALALA.getPrice()) + (2 * Cookies.DARK_TEMPTATION.getPrice());
 		assertEquals(price, order.getPrice(), 0.0);
+		
+		// TO DELETE
+		assertEquals(1,2);
 	}
 
 	@Test(expected = PaymentException.class)
