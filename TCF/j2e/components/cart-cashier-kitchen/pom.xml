@@ -98,6 +98,11 @@
             <artifactId>orders</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>items</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 	
     
