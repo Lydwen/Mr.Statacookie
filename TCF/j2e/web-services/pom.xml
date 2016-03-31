@@ -109,6 +109,16 @@
             <artifactId>cart-cashier-kitchen</artifactId>
             <version>${project.version}</version>
         </dependency>
+		<dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>utils</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+		<dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>orders</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 	
 	<!-- PUSH ME UP, OoOOOOoh ARTIFACTORYYYY!-->
