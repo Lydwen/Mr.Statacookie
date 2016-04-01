@@ -19,8 +19,7 @@
 	<!-- Children -->
     <modules>
 		<!--<module>cart-cashier</module>-->
-		<module>registration</module>
-		<module>cart-cashier-kitchen</module>
+		<module>cart-cashier-kitchen-registration</module>
 		<module>catalogue</module>
 	</modules>
 		

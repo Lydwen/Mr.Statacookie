@@ -27,7 +27,7 @@
 	</repositories>
 	
 	<!-- Me -->
-    <artifactId>registration</artifactId>
+    <artifactId>cart-cashier-kitchen-registration</artifactId>
     <packaging>jar</packaging>
 	
 	<properties>
@@ -39,10 +39,10 @@
       <versions.openejb>4.7.3</versions.openejb>
       <versions.tomee>1.7.3</versions.tomee>
 	</properties>
-
+  
 	<!-- What I Need -->
     <dependencies>
-	<dependency>
+		<dependency>
           <groupId>org.apache.openejb</groupId>
           <artifactId>javaee-api</artifactId>
           <version>${versions.javaee}</version>
@@ -87,17 +87,20 @@
           <version>${versions.tomee.embedded}</version>
           <scope>test</scope>
       </dependency>
-	  
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>utils</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 		<!-- Entities -->
         <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
             <artifactId>orders</artifactId>
             <version>${project.version}</version>
         </dependency>
-		<!-- Database -->
-		<dependency>
+        <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>utils</artifactId>
+            <artifactId>items</artifactId>
             <version>${project.version}</version>
         </dependency>
 		<dependency>
@@ -105,14 +108,10 @@
             <artifactId>exceptions</artifactId>
             <version>${project.version}</version>
         </dependency>
-		<dependency>
-            <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>cart-cashier-kitchen</artifactId>
-            <version>${project.version}</version>
-        </dependency>
     </dependencies>
 	
-	<!-- PUSH ME UP, OoOOOOoh ARTIFACTORYYYY!-->
+    
+    <!-- PUSH ME UP, OoOOOOoh ARTIFACTORYYYY!-->
     <distributionManagement>
 		<repository>
 			<id>central</id>
