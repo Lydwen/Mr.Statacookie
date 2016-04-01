@@ -106,12 +106,7 @@
         </dependency>
         <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>cart-cashier-kitchen</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>registration</artifactId>
+            <artifactId>cart-cashier-kitchen-registration</artifactId>
             <version>${project.version}</version>
         </dependency>
 		<dependency>
