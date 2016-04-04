@@ -22,6 +22,7 @@
 		<module>exceptions</module>
 		<module>utils</module>
 		<module>web-services</module>
+		<module>integration</module>
 	</modules>
 
     <profiles>
