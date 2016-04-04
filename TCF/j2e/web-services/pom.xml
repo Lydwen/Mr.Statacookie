@@ -98,25 +98,19 @@
             <artifactId>items</artifactId>
             <version>${project.version}</version>
         </dependency>
-		<!-- Components -->
-        <dependency>
+		<dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>catalogue</artifactId>
+            <artifactId>orders</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
+		<dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
             <artifactId>cart-cashier-kitchen-registration</artifactId>
             <version>${project.version}</version>
         </dependency>
 		<dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>utils</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-		<dependency>
-            <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>orders</artifactId>
+            <artifactId>catalogue</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
