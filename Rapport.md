@@ -8,7 +8,7 @@ ROLLIN Antoine
 ## Essais ##
 
 > Initial
-<table style="color:red">
+<table>
   <tr>
     <td>CATALOGUE</td>
     <td>CART-CASHIER-KITCHEN-REGISTRATION</td> 
@@ -33,7 +33,7 @@ ROLLIN Antoine
   </tr>
   <tr>
     <td>141710-2</td>
-    <td>-</td> 
+    <td>Comme Avant</td> 
     <td>141710-1</td>
     <td>141710-3</td>
   </tr>
@@ -48,10 +48,10 @@ ROLLIN Antoine
     <td>WEB-SERVICES</td>
   </tr>
   <tr>
-    <td>-</td>
-    <td>-</td> 
-    <td>-</td>
-    <td>-</td>
+    <td>Comme Avant</td>
+    <td>Comme Avant</td>
+    <td>Comme Avant</td>
+    <td>Comme Avant</td>
   </tr>
 </table>
 
@@ -65,7 +65,7 @@ ROLLIN Antoine
   </tr>
   <tr>
     <td>142711-2</td>
-    <td>-</td> 
+    <td>Comme Avant</td> 
     <td>142711-1</td>
     <td>142711-3</td>
   </tr>
@@ -80,10 +80,10 @@ ROLLIN Antoine
     <td>WEB-SERVICES</td>
   </tr>
   <tr>
-    <td>-</td>
-    <td>-</td> 
-    <td>-</td> 
-    <td>-</td> 
+    <td>Comme Avant</td>
+    <td>Comme Avant</td>
+    <td>Comme Avant</td>
+    <td>Comme Avant</td>
   </tr>
 </table>
 
