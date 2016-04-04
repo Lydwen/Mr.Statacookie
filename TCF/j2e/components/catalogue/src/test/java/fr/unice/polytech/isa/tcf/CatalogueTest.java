@@ -23,7 +23,7 @@ public class CatalogueTest extends AbstractTCFTest {
 		assertEquals(3, premade.size());
 		
 		// Antoine
-		//assertEquals(1,2);
+		assertEquals(1,2);
 	}
 
 	@Test
