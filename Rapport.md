@@ -8,7 +8,7 @@ ROLLIN Antoine
 ## Essais ##
 
 > Initial
-<table style="width:100%">
+<table style="color:red">
   <tr>
     <td>CATALOGUE</td>
     <td>CART-CASHIER-KITCHEN-REGISTRATION</td> 
