@@ -60,8 +60,6 @@
     </dependencies>
 
     <build>
-        <!--<finalName>tcf-backend</finalName>-->
-        <defaultGoal>package</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
