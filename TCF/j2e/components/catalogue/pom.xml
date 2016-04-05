@@ -4,129 +4,38 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-	<!-- Dad -->
+    <!-- Dad -->
     <parent>
         <groupId>fr.unice.polytech.isa.g1</groupId>
         <artifactId>components</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
-	
-	<!-- Artifactory repository -->
-	<repositories>
-		<repository>
-			<id>statacookie-repository</id>
-			<url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E/</url>
-		</repository>
-        <!-- Snapshot repository to access to the latest version of the OpenEJB framework -->
+
+    <repositories>
+        <!-- Artifactory repository -->
         <repository>
-            <id>apache-m2-snapshot</id>
-            <name>Apache Snapshot Repository</name>
-            <url>https://repository.apache.org/content/groups/snapshots</url>
+            <id>statacookie-repository</id>
+            <url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E/</url>
         </repository>
-	</repositories>
-	
-	<!-- Me -->
+    </repositories>
+
+    <!-- Me -->
     <artifactId>catalogue</artifactId>
     <packaging>jar</packaging>
-	
-	<properties>
-      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      <versions.tomee.embedded>1.7.3</versions.tomee.embedded>
 
-      <!-- Stable versions -->
-      <versions.javaee>6.0-6</versions.javaee>
-      <versions.openejb>4.7.3</versions.openejb>
-      <versions.tomee>1.7.3</versions.tomee>
-	</properties>
-
-	<!-- What I Need -->
+    <!-- What I Need -->
     <dependencies>
-	<dependency>
-          <groupId>org.apache.openejb</groupId>
-          <artifactId>javaee-api</artifactId>
-          <version>${versions.javaee}</version>
-          <scope>provided</scope>
-      </dependency>
-      <dependency>
-          <groupId>org.apache.openejb</groupId>
-          <artifactId>openejb-core</artifactId>
-          <version>${versions.openejb}</version>
-          <scope>test</scope>
-      </dependency>
-      <dependency>
-          <groupId>org.apache.openejb</groupId>
-          <artifactId>tomee-embedded</artifactId>
-          <version>${versions.tomee}</version>
-          <scope>test</scope>
-      </dependency>
-      <!-- Dependencies for the testing frameworks (Junit & Arquillian) -->
-      <dependency>
-          <groupId>junit</groupId>
-          <artifactId>junit</artifactId>
-          <version>4.12</version>
-          <scope>test</scope>
-      </dependency>
-      <dependency>
-          <groupId>org.jboss.arquillian.junit</groupId>
-          <artifactId>arquillian-junit-container</artifactId>
-          <version>1.1.5.Final</version>
-          <scope>test</scope>
-      </dependency>
-      <dependency>
-          <groupId>org.jboss.shrinkwrap.resolver</groupId>
-          <artifactId>shrinkwrap-resolver-depchain</artifactId>
-          <version>2.1.1</version>
-          <type>pom</type>
-          <scope>test</scope>
-      </dependency>
-      <!-- Application server: Tomee -->
-      <dependency>
-          <groupId>org.apache.openejb</groupId>
-          <artifactId>arquillian-tomee-embedded</artifactId>
-          <version>${versions.tomee.embedded}</version>
-          <scope>test</scope>
-      </dependency>
-	  
-		<!-- Entities -->
+        <!-- Entities -->
         <dependency>
-            <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>items</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-		<dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
             <artifactId>cart-cashier-kitchen-registration</artifactId>
             <version>${project.version}</version>
         </dependency>
-		<dependency>
-            <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>orders</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-		<dependency>
+        <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
             <artifactId>utils</artifactId>
             <version>${project.version}</version>
         </dependency>
-		<dependency>
-            <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>exceptions</artifactId>
-            <version>${project.version}</version>
-        </dependency>
     </dependencies>
-	
-	<!-- PUSH ME UP, OoOOOOoh ARTIFACTORYYYY!-->
-    <distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>erebe-vm3-releases</name>
-			<url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>erebe-vm3-snapshots</name>
-			<url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E</url>
-		</snapshotRepository>
-	</distributionManagement>
 </project>

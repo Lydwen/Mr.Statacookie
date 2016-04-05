@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-	<!-- Dad -->
+    <!-- Dad -->
     <parent>
         <groupId>fr.unice.polytech.isa.g1</groupId>
         <artifactId>tcf-backend</artifactId>
@@ -12,19 +12,19 @@
         <relativePath>../</relativePath>
     </parent>
 
-	<!-- Artifactory repository -->
-	<repositories>
-		<repository>
-			<id>statacookie-repository</id>
-			<url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E/</url>
-		</repository>
-	</repositories>
-	
-	<!-- Me -->
+    <repositories>
+        <!-- Artifactory repository -->
+        <repository>
+            <id>statacookie-repository</id>
+            <url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E/</url>
+        </repository>
+    </repositories>
+
+    <!-- Me -->
     <artifactId>utils</artifactId>
     <packaging>jar</packaging>
 
-	<!-- What I Need -->
+    <!-- What I Need -->
     <dependencies>
         <!-- JSON -->
         <dependency>
@@ -43,8 +43,8 @@
             <artifactId>openejb-cxf-rs</artifactId>
             <version>${versions.openejb}</version>
         </dependency>
-		
-		<dependency>
+        <!-- Entities -->
+        <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
             <artifactId>orders</artifactId>
             <version>${project.version}</version>
@@ -54,24 +54,10 @@
             <artifactId>exceptions</artifactId>
             <version>${project.version}</version>
         </dependency>
-		<dependency>
+        <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
             <artifactId>items</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
-	
-	<!-- PUSH ME UP, OoOOOOoh ARTIFACTORYYYY!-->
-    <distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>erebe-vm3-releases</name>
-			<url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>erebe-vm3-snapshots</name>
-			<url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E</url>
-		</snapshotRepository>
-	</distributionManagement>
 </project>

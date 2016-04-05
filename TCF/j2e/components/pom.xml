@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-	<!-- Dad -->
+    <!-- Dad -->
     <parent>
         <groupId>fr.unice.polytech.isa.g1</groupId>
         <artifactId>tcf-backend</artifactId>
@@ -12,28 +12,45 @@
         <relativePath>../</relativePath>
     </parent>
 
-	<!-- Me -->
+    <!-- Me -->
     <artifactId>components</artifactId>
     <packaging>pom</packaging>
 
-	<!-- Children -->
+    <repositories>
+        <!-- Artifactory repository -->
+        <repository>
+            <id>statacookie-repository</id>
+            <url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E/</url>
+        </repository>
+    </repositories>
+
+    <!-- Children -->
     <modules>
-		<!--<module>cart-cashier</module>-->
-		<module>cart-cashier-kitchen-registration</module>
-		<module>catalogue</module>
-	</modules>
-		
-	<!-- PUSH ME UP, OoOOOOoh ARTIFACTORYYYY!-->
-    <distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>erebe-vm3-releases</name>
-			<url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>erebe-vm3-snapshots</name>
-			<url>http://erebe-vm3.i3s.unice.fr/artifactory/TCF-J2E</url>
-		</snapshotRepository>
-	</distributionManagement>
+        <module>cart-cashier-kitchen-registration</module>
+        <module>catalogue</module>
+    </modules>
+
+    <dependencies>
+        <!-- Entities -->
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>utils</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>orders</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>items</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>exceptions</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>
