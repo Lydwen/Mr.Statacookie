@@ -29,22 +29,7 @@
         <!-- Entities -->
         <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>exceptions</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>fr.unice.polytech.isa.g1</groupId>
             <artifactId>items</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>catalogue</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>cart-cashier-kitchen-registration</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
@@ -55,6 +40,23 @@
         <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
             <artifactId>orders</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        
+        <!-- components  -->
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>cart-cashier</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>registration</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>exceptions</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
