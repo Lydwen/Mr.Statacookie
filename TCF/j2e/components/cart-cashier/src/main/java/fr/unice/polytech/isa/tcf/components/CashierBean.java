@@ -35,11 +35,11 @@ public class CashierBean implements Payment {
 		boolean status = false;
 		try { status = bank.performPayment(customer, price); }
 		catch (ExternalPartnerException e) {
-			throw new PaymentException(customer.getName(), price);
+			throw new PaymentException("external partner exception"+customer.getName(), price);
 		}
 
 		if (!status) {
-			throw new PaymentException(customer.getName(), price);
+			throw new PaymentException("pas status"+customer.getName(), price);
 		}
 
 		customer.add(order);
