@@ -7,14 +7,10 @@
     <!-- Dad -->
     <parent>
         <groupId>fr.unice.polytech.isa.g1</groupId>
-        <artifactId>tcf-backend</artifactId>
+        <artifactId>components</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
-
-    <!-- Me -->
-    <artifactId>components</artifactId>
-    <packaging>pom</packaging>
 
     <repositories>
         <!-- Artifactory repository -->
@@ -24,14 +20,11 @@
         </repository>
     </repositories>
 
-    <!-- Children -->
-    <modules>
-        <module>catalogue</module>
-        <module>registration</module>
-        <module>kitchen</module>
-        <module>cart-cashier</module>
-    </modules>
-
+    <!-- Me -->
+    <artifactId>cart-cashier</artifactId>
+    <packaging>jar</packaging>
+    
+    <!-- What I need -->
     <dependencies>
         <!-- Entities -->
         <dependency>
@@ -49,10 +42,22 @@
             <artifactId>items</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!-- Exceptions -->
         <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
             <artifactId>exceptions</artifactId>
             <version>${project.version}</version>
         </dependency>
-    </dependencies>
+        <!-- Component -->
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>registration</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.unice.polytech.isa.g1</groupId>
+            <artifactId>kitchen</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+	</dependencies>
 </project>
