@@ -37,7 +37,6 @@ public abstract class AbstractTCFTest {
 				.addPackage(Logger.class.getPackage())
 				// Exceptions
 				.addPackage(AlreadyExistingCustomerException.class.getPackage())
-				//.addPackage(PaymentException.class.getPackage())
 				// Components implementations
 				.addPackage(CartBean.class.getPackage());
 	}
