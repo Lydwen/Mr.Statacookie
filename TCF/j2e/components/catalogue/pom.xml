@@ -29,7 +29,7 @@
         <!-- Entities -->
         <dependency>
             <groupId>fr.unice.polytech.isa.g1</groupId>
-            <artifactId>cart-cashier-kitchen-registration</artifactId>
+            <artifactId>cart-cashier</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
