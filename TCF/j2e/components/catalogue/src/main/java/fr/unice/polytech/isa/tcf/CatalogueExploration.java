@@ -9,6 +9,5 @@ import java.util.Set;
 public interface CatalogueExploration {
 
 	Set<Cookies> listPreMadeRecipes(); 
-	
 	Set<Cookies> exploreCatalogue(String regexp);
 }

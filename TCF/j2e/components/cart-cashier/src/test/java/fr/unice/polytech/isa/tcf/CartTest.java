@@ -45,6 +45,8 @@ public class CartTest extends AbstractTCFTest {
 		cart.add(john, new Item(Cookies.DARK_TEMPTATION, 3));
 		Item[] oracle = new Item[] {new Item(Cookies.CHOCOLALALA, 2), new Item(Cookies.DARK_TEMPTATION, 3)  };
 		assertEquals(new HashSet<>(Arrays.asList(oracle)), cart.contents(john));
+		
+		assertEquals(2,1);
 	}
 
 	@Test
