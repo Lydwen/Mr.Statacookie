@@ -35,8 +35,10 @@ public class Server
     host.Open();
     Console.WriteLine("done!\n");
     Console.WriteLine("  Listening to "+hostname+":"+port+"\n\n");
-    Console.WriteLine("Hit Return to shutdown the server.");
-    Console.ReadLine();
+    Console.WriteLine("Send '$' to shutdown the server.");
+	
+	// Wait '$'
+	while(Console.ReadKey().KeyChar != '$');
 
     // Cleaning up and ending the hosting
     host.Close ();
