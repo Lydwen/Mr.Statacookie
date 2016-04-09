@@ -33,19 +33,11 @@ Le projet The Cookie Factory a été réalisé par Sébastien Mosser. Le répert
 <li>Tom : Configurer Artifactory</li>
 <li>Kévin : Configurer Jenkins</li>
 <li>Antoine : Rajouter les tests pour Maven</li>
+<li>Tests</li>
 </ul>
-
-> TODO
-
-<ul>
-<li>Tester usage multiple de Artifactory</li>
-</ul>
-
-
 
 > VM Info
 
 erebe-vm3.i3s.unice.fr
-[1 CPU] - 2GB
 id : devops
 pwd : atchoum !!!
