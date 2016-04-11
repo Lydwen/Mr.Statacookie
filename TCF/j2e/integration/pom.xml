@@ -22,7 +22,7 @@
 
     <!-- Me -->
     <artifactId>integration</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <!-- What I Need -->
     <dependencies>

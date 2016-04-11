@@ -21,3 +21,6 @@ hs_err_pid*
 *.idea
 ./idea/*
 *.iml
+
+# Mono executable
+/TCF/dotNet/*.exe
